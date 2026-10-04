@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run SnakeGame",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/SnakeGame",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build SnakeGame"
+        }
+    ]
+}
